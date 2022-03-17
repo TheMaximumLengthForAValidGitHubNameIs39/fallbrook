@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hyperlinks {
+  float: right;
+}
+
+.contact {
+  float: right;
+  border: 1 px solid black;
+  border-radius: 25px;
+}
+
+.aboutBackground {
+  float: bottom;
+  background-color: grey; /* replace with image */
+}
+
+.aboutLeft {
+  display: inline-block;
+}
+
+.aboutRight {
+  display: inline-block;
+}
