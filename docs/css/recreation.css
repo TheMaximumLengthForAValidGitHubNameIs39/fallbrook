@@ -45,7 +45,8 @@ p {
   float: right;
   width: 120px;
   height: 30px;
-  font: normal normal normal 20px/27px Segoe UI;
+  text-decoration: underline;
+  font: normal normal bold 20px/27px Segoe UI;
 }
 
 #timeline {
@@ -53,8 +54,7 @@ p {
   float: right;
   width: 120px;
   height: 30px;
-  text-decoration: underline;
-  font: normal normal bold 20px/27px Segoe UI;
+  font: normal normal normal 20px/27px Segoe UI;
 }
 
 #artsteps {
@@ -71,4 +71,8 @@ p {
   width: 120px;
   height: 30px;
   font: normal normal normal 20px/27px Segoe UI;
+}
+
+#tempholder {
+  font-family: Roboto;
 }

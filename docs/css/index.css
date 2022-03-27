@@ -2,18 +2,79 @@ body {
   background-color: white;
 }
 
+h1 {
+  text-align: left;
+  font: normal normal bold 40px/48px Roboto;
+  color: white;
+}
+
+#subhead {
+  text-align: left;
+  font: normal normal 300 17px/20px Roboto;
+  color: #F5F5F5;
+}
+
 ul {
   list-style-type: none;
 }
 
-.hyperlinks {
-  float: right;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-.contact {
+.navbg {
+  background-color: #00255A;
+}
+
+p {
+  font: normal normal normal 25px/38px Segoe UI;
+  color: #6E6E6E;
+}
+
+.tempholder {
+  font-family: Roboto;
+}
+
+#home {
+  top: 177px;
   float: right;
-  border: 1 px solid black;
-  border-radius: 25px;
+  width: 120px;
+  height: 30px;
+  text-decoration: underline;
+  font: normal normal bold 20px/27px Segoe UI;
+}
+
+#recreation {
+  top: 177px;
+  float: right;
+  width: 120px;
+  height: 30px;
+  font: normal normal normal 20px/27px Segoe UI;
+}
+
+#timeline {
+  top: 177px;
+  float: right;
+  width: 120px;
+  height: 30px;
+  font: normal normal normal 20px/27px Segoe UI;
+}
+
+#artsteps {
+  top: 177px;
+  float: right;
+  width: 120px;
+  height: 30px;
+  font: normal normal normal 20px/27px Segoe UI;
+}
+
+#contact {
+  top: 177px;
+  float: right;
+  width: 120px;
+  height: 30px;
+  font: normal normal normal 20px/27px Segoe UI;
 }
 
 .aboutBackground {
@@ -27,13 +88,4 @@ ul {
 
 .aboutRight {
   display: inline-block;
-}
-
-#contact {
-  border-radius: 25px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-  float: right;
 }
