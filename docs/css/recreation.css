@@ -38,17 +38,22 @@ p {
   color: #6E6E6E;
 }
 
+.hyperlinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
 #home {
+  padding: 0px 10px;
   top: 177px;
-  float: right;
   width: 120px;
   height: 30px;
   font: normal normal normal 20px/27px Segoe UI;
 }
 
 #recreation {
+  padding: 0px 10px;
   top: 177px;
-  float: right;
   width: 120px;
   height: 30px;
   text-decoration: underline;
@@ -56,24 +61,24 @@ p {
 }
 
 #timeline {
+  padding: 0px 10px;
   top: 177px;
-  float: right;
   width: 120px;
   height: 30px;
   font: normal normal normal 20px/27px Segoe UI;
 }
 
 #artsteps {
+  padding: 0px 10px;
   top: 177px;
-  float: right;
   width: 120px;
   height: 30px;
   font: normal normal normal 20px/27px Segoe UI;
 }
 
 #contact {
+  padding: 0px 10px;
   top: 177px;
-  float: right;
   width: 120px;
   height: 30px;
   font: normal normal normal 20px/27px Segoe UI;
