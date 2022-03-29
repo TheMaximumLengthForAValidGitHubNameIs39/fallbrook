@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 .headerbg {
   background-color: #00255A;
 }
@@ -14,9 +24,9 @@
 
 h1 {
   text-align: left;
-  top: 50%;
   font: normal normal bold 40px/48px Roboto;
   color: white;
+  margin-top: 0;
 }
 
 #subhead {
@@ -37,6 +47,10 @@ a {
 p {
   font: normal normal normal 25px/38px Segoe UI;
   color: #6E6E6E;
+}
+
+.tempholder {
+  font-family: Roboto;
 }
 
 .hyperlinks {

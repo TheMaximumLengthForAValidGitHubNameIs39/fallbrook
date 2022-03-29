@@ -1,5 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 .headerbg {
   background-color: #00255A;
+}
+
+.beration p {
+  font: normal normal normal 25px/38px Segoe UI;
+  color: #6E6E6E;
 }
 
 #background {
@@ -16,6 +31,7 @@ h1 {
   text-align: left;
   font: normal normal bold 40px/48px Roboto;
   color: white;
+  margin-top: 0;
 }
 
 #subhead {
@@ -31,11 +47,6 @@ ul {
 a {
   text-decoration: none;
   color: white;
-}
-
-p {
-  font: normal normal normal 25px/38px Segoe UI;
-  color: #6E6E6E;
 }
 
 .tempholder {
@@ -100,3 +111,14 @@ p {
 .aboutRight {
   display: inline-block;
 }
+
+/*
+#content {
+  margin: auto;
+}
+
+#container {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+*/
