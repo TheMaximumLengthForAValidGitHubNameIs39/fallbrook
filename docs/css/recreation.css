@@ -1,5 +1,7 @@
-body {
+.headerbg {
   background-color: #00255A;
+  border-top: 1px;
+  margin-top: -1px;
 }
 
 #background {
@@ -84,6 +86,6 @@ p {
   font: normal normal normal 20px/27px Segoe UI;
 }
 
-#tempholder {
+.tempholder {
   font-family: Roboto;
 }
