@@ -231,3 +231,22 @@ nav {
 #hiking{
   float: none;
 }
+
+#timePg {
+  background-color: #F5F5F5;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+#artPg {
+  background-color: #F5F5F5;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+#contactPg {
+  display: inline-block;
+  background-color: #F5F5F5;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
