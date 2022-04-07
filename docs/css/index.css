@@ -150,13 +150,13 @@ nav {
   background-size: cover;
   background-position: center 25%;
   width: 100%;
-  height: 70vh;
+  height: calc(100vh - 8.0625rem);
   display: flex;
   align-items: center;
 }
 
 #callToAction{
-  background-color: hsla(360, 100%, 0%, 0.6);
+  background-color: hsla(360, 100%, 0%, 0.75);
   border-radius: 1rem;
   display: block;
   max-width: 35vw;
@@ -221,32 +221,40 @@ nav {
   margin-bottom: 2rem;
 }
 
-#ambience {
-  display: inline-block;
-  background-color: #F5F5F5;
-  padding: 2rem;
-  margin-bottom: 2rem;
+#panos{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-#hiking{
-  float: none;
+#panos iframe{
+  width: 40vw;
+  height: 30vw;
+  padding: 0.5rem;
 }
 
 #timePg {
   background-color: #F5F5F5;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  height: calc(100vh - 10.0625rem);
 }
 
 #artPg {
   background-color: #F5F5F5;
   padding: 2rem;
-  margin-bottom: 2rem;
 }
 
 #contactPg {
   display: inline-block;
   background-color: #F5F5F5;
   padding: 2rem;
-  margin-bottom: 2rem;
+  padding-bottom: 0;
+  height: calc(100vh - 10.0625rem);
+}
+
+#contactPg iframe{
+  float: right;
+  clear: right;
+  display: block;
+  border: 1rem solid hsla(360, 100%, 100%, 1);
+  margin-left: 1rem;
 }
